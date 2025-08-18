@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(
+    to left,
+    rgba(213, 193, 213, 0.181),
+    rgb(22, 127, 208)
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-size: larger;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-weight: 100;
+}
+
+.box {
+  background: linear-gradient(skyblue, darkgrey);
+  color: blueviolet;
+  border: 3px solid azure;
+  border-bottom: double;
+  border-top: dotted;
+  border-color: cornflowerblue;
+  padding: 15px;
+  margin: 15px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+}
+h1 {
+  background-color: rgb(38, 76, 173);
+  background-repeat: no repeat;
+  border-radius: 4px;
+  font-size: x-large;
+}
+
+h2 {
+  background: linear-gradient(to right, rgb(25, 25, 110), rgb(210, 197, 197));
+  background-repeat: no repeat;
+  border-radius: 4px;
+  font-size: x-large;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  gap: 5px;
+}
+
+.p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+}
+#p {
+  border: 10px;
+  background-color: beige;
+  margin: 10px;
+  align-items: center;
+}
+.navBar {
+  background-color: rgb(46, 88, 124);
+  border: 10px;
+}
